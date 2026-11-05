@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-SUC_CHUA = 30
+SUC_CHUA = 31
 DB_PATH = os.getenv("DB_PATH", "ngayhoi.db")
 
 # Test dùng :memory: nên phải chia sẻ một kết nối; chạy thật thì mỗi request một kết nối
